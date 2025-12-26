@@ -1,0 +1,83 @@
+name: musicmitra
+description: A Flutter music UI app with dark/light theme toggle.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  provider: ^6.1.1
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.8
+  just_audio: ^0.9.36
+  shared_preferences: ^2.2.2
+  supabase_flutter: ^2.5.6
+  share_plus: ^12.0.1
+  just_audio_background: ^0.0.1-beta.11
+  intl: ^0.20.2
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+  qr_flutter: ^4.1.0
+  video_player: ^2.8.6
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1 # ✅ ADDED for app icon generation
+  mockito: ^5.0.0
+  build_runner: ^2.4.0
+
+# ✅ ADDED: Configuration for the app launcher icons
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png" # Path to your main icon image
+  adaptive_icon_background: "#000000" # Black background for Android adaptive icons
+  adaptive_icon_foreground: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/profile.png
+    - assets/artistsLogo/
+    - assets/artistsSong/
+    - assets/artistsSong/arijit/
+    - assets/artistsSong/jubin/audio/
+    - assets/artistsSong/jubin/Images/
+    - assets/artistsSong/kishore/
+    - assets/artistsSong/pawan/Images/
+    - assets/artistsSong/pawan/audio/
+    - assets/artistsSong/shreya/
+    - assets/artistsSong/udit/
+    - assets/artistsSong/alka/
+    - assets/artistsSong/rahat/Images/
+    - assets/artistsSong/rahat/Songs/
+    - assets/artistsSong/praak/Images/
+    - assets/artistsSong/praak/Songs/
+    - assets/artistsSong/Nusrat/Songs/
+    - assets/artistsSong/Nusrat/Images/
+    - assets/artistsSong/Lata/Songs/
+    - assets/artistsSong/Lata/Images/
+    - assets/artistsSong/shreya/image/
+    - assets/artistsSong/shreya/audio/
+    - assets/categorySong/
+    - assets/categorySong/top/
+    - assets/categorySong/relax/
+    - assets/categorySong/relax/image/
+    - assets/categorySong/relax/audio/
+    - assets/categorySong/drive/
+    - assets/categorySong/workout/
+    - assets/categorySong/haldi/
+    - assets/categorySong/birthday/
+    - assets/HomePage/

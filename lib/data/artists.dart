@@ -1,0 +1,15 @@
+final List<Map<String, String>> artists = [
+  {"name": "Arijit Singh", "image": "assets/artistsLogo/arijit.png"},
+  {"name": "Shreya Ghosal", "image": "assets/artistsLogo/shreya.png"},
+  {"name": "Jubin Nautiyal", "image": "assets/artistsLogo/jubin.png"},
+  {"name": "Udit Narayan", "image": "assets/artistsLogo/udit.png"},
+  {"name": "Kishore Kumar", "image": "assets/artistsLogo/kishore.png"},
+  {"name": "Alka Yagnik", "image": "assets/artistsLogo/alka.png"},
+  {"name": "Pawan Singh", "image": "assets/artistsLogo/pawan.png"},
+  {"name": "Lata Mangeshkar", "image": "assets/artistsLogo/Lata.jpeg"},
+  // {"name": "Kumar Sanu", "image": "assets/artistsLogo/sanu.png"},
+  {"name": "Rahat Fateh", "image": "assets/artistsLogo/rahat.png"},
+  // {"name": "Altaf Raja", "image": "assets/artistsLogo/altaf.png"},
+  {"name": "B Praak", "image": "assets/artistsLogo/praak.png"},
+  {"name": "Nusrat Fateh", "image": "assets/artistsLogo/Nusrat.png"},
+];

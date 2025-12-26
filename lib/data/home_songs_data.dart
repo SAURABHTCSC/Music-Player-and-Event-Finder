@@ -1,0 +1,51 @@
+final List<Map<String, String>> homeSongsData = [
+  {
+    'id': 'home_01',
+    'title': 'Woh Din',
+    'artist': 'Pritam, Arijit Singh',
+    'file': 'assets/HomePage/wo din.mp3',
+    'image': 'assets/HomePage/wo din.jpg',
+  },
+  {
+    'id': 'home_02',
+    'title': 'Tera Yaar Hoon Main',
+    'artist': 'Arijit Singh',
+    'file': 'assets/HomePage/tere yaar.mp3',
+    'image': 'assets/HomePage/tere yaar.jpg',
+  },
+  {
+    'id': 'home_03',
+    'title': 'Agar Tum Saath Ho',
+    'artist': 'Alka Yagnik, Arijit Singh',
+    'file': 'assets/HomePage/agar tum sath ho.mp3',
+    'image': 'assets/HomePage/agar tum sath ho.jpg',
+  },
+  {
+    'id': 'home_04',
+    'title': 'Sanson ki mala x Teri Deewani',
+    'artist': 'Tejas and Mitali',
+    'image': 'assets/categorySong/relax/image/sason.jpg',
+    'file': 'assets/categorySong/relax/audio/sanson.mp3',
+  },
+  {
+    'id': 'home_05',
+    'title': 'The Burning Ghat For Mental Health',
+    'artist': 'Rishab Rikhiram Sharma ',
+    'image': 'assets/categorySong/relax/image/burning.jpg',
+    'file': 'assets/categorySong/relax/audio/Burning.mp3',
+  },
+  {
+    'id': 'home_06',
+    'title': 'Grabe ki raat',
+    'artist': 'Shreya',
+    'image': 'assets/artistsSong/shreya/image/garbe.jpg',
+    'file': 'assets/artistsSong/shreya/audio/garbe.mp3',
+  },
+  {
+    'id': 'home_07',
+    'title': 'Aaye Ho Meri Zindagi Mein ',
+    'artist': 'Alka Yagnik',
+    'image': 'assets/artistsSong/alka/aaye.jpg',
+    'file': 'assets/artistsSong/alka/Aaye Ho Meri Zindagi Mein .mp3',
+  },
+];
