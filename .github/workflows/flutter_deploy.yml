@@ -1,0 +1,45 @@
+name: Auto Deploy Flutter Web
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Get your code
+      - uses: actions/checkout@v4
+
+      # 2. Install Flutter on GitHub's server
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+
+      # 3. Build the website
+      - name: Build Web
+        run: |
+          flutter config --enable-web
+          flutter build web --release --base-href "/Music-Player-and-Event-Finder/"
+
+      # 4. Upload the built website
+      - name: Upload Build
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      # 5. Publish it live
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
